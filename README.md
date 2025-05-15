@@ -1,37 +1,67 @@
 <div align="center">
 
-# 🛡️ | Vulnerability Found – Data Breach Report  
-<p>
-<img src="https://img.shields.io/github/stars/qeize/death?color=%23DF0067&style=for-the-badge"/> &nbsp;
-<img src="https://img.shields.io/github/forks/qeize/death?color=%239999FF&style=for-the-badge"/> &nbsp;
-<img src="https://img.shields.io/github/license/qeize/death?style=for-the-badge"/> &nbsp;
+# 🛡️ Vulnerability Report: ppdb.smansumsel.sch.id  
+**Security Disclosure | Data Breach Log**  
+*Discovered & Reported by [@keccy](https://t.me/keccy) | [veccy.my.id](https://veccy.my.id)*  
 
-<p><b>Security Audit Log – Data Extraction Summary</b></p>  
-</p>
-
-> On **February 10, 2025**, a critical vulnerability was discovered in [ppdb.smansumsel.sch.id](https://ppdb.smansumsel.sch.id).  
-> The issue was found and exploited at **2:35 AM (GMT+7)**, leading to unauthorized access and extraction of sensitive student data.
+<img src="https://img.shields.io/badge/Status-Disclosed-blueviolet?style=for-the-badge"/>  
+<img src="https://img.shields.io/badge/Affected_Records-4897%2B-critical?style=for-the-badge&color=crimson"/>  
+<img src="https://img.shields.io/badge/Vulnerability-Type-Injection-important?style=for-the-badge&color=orange"/>  
 
 ---
 
-## Compromised Data (Total Records: 4,897+)
+</div>
+
+## Summary
+
+On **February 10, 2025 at 02:35 AM (GMT+7)**, a critical injection vulnerability was identified on the student registration portal:
+
+> **Website:** [https://ppdb.smansumsel.sch.id](https://ppdb.smansumsel.sch.id)  
+> **Impact:** Unauthorized access to over 4,897 student records.
+
+The exploit allowed full access to the database containing sensitive personal and academic information.
+
+---
+
+## Extracted Data
+
+The breach includes the following fields per record:
 
 - Full Name  
-- National Student Identification Number (NISN)  
-- National Identity Number (NIK)  
+- NISN (National Student ID Number)  
+- NIK (National Identity Number)  
 - Date of Birth  
-- Residential Address  
-- Parent / Guardian Information  
-- Phone Numbers  
+- Address  
+- Phone Number  
+- Parent/Guardian Full Data  
 - Family Economic Background  
-- Additional Personal and Educational Details
+- Other Identifiable Student Information  
 
 ---
 
-> This information is shared as part of a responsible disclosure and awareness initiative.  
-> No malicious intent is associated with the activity—conducted for educational purposes and ethical testing only.  
->  
-> **Contact:** [@keccy](https://t.me/keccy)  
-> **Website:** [veccy.my.id](https://veccy.my.id)
+## Technical Context
 
+The vulnerability stems from insufficient input validation, allowing direct database access via injection techniques. No authorization or session layer was detected during the session, enabling unrestricted data dumping.
+
+---
+
+## Disclosure Intent
+
+> This report is published **for cybersecurity awareness and educational purposes**.  
+> The goal is to raise concerns regarding student data privacy and advocate for better infrastructure security in public systems.  
+> **No data has been sold, leaked, or used for harm.**
+
+---
+
+## Contact & Credits
+
+- **Researcher:** [@keccy](https://t.me/keccy)  
+- **Site:** [https://veccy.my.id](https://veccy.my.id)  
+- **Support Ethical Hacking & Security Literacy**
+
+---
+
+<div align="center">
+Made with **ethics & code**  
+© 2020–2025 Veccy | All rights reserved.
 </div>
