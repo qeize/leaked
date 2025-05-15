@@ -1,12 +1,11 @@
 <div align="center">
 
-# 🛡️ Vulnerability Report: ppdb.smansumsel.sch.id  
+# 🛡️ Vulnerability Report  
 **Security Disclosure | Data Breach Log**  
 *Discovered & Reported by [@keccy](https://t.me/keccy) | [veccy.my.id](https://veccy.my.id)*  
 
 <img src="https://img.shields.io/badge/Status-Disclosed-blueviolet?style=for-the-badge"/>  
 <img src="https://img.shields.io/badge/Affected_Records-4897%2B-critical?style=for-the-badge&color=crimson"/>  
-<img src="https://img.shields.io/badge/Vulnerability-Type-Injection-important?style=for-the-badge&color=orange"/>  
 
 ---
 
@@ -62,6 +61,5 @@ The vulnerability stems from insufficient input validation, allowing direct data
 ---
 
 <div align="center">
-Made with **ethics & code**  
 © 2020–2025 Veccy | All rights reserved.
 </div>
