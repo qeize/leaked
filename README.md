@@ -56,8 +56,7 @@ The vulnerability stems from insufficient input validation, allowing direct data
 
 - **Researcher:** [@keccy](https://t.me/keccy)  
 - **Site:** [https://veccy.my.id](https://veccy.my.id)  
-- **Support Ethical Hacking & Security Literacy**
-
+- **Death Networks**
 ---
 
 <div align="center">
